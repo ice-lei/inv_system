@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lut.mapper.StockoutMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lut.model.Stockout">
+        <id column="stockoutid" property="stockoutid" />
+        <result column="productid" property="productid" />
+        <result column="quantity" property="quantity" />
+        <result column="outgoingperson" property="outgoingperson" />
+        <result column="notes" property="notes" />
+        <result column="stockouttime" property="stockouttime" />
+    </resultMap>
+
+</mapper>

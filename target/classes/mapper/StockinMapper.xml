@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lut.mapper.StockinMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lut.model.Stockin">
+        <id column="stockInid" property="stockInid" />
+        <result column="productid" property="productid" />
+        <result column="quantity" property="quantity" />
+        <result column="supplier" property="supplier" />
+        <result column="notes" property="notes" />
+        <result column="stockIntime" property="stockIntime" />
+        <result column="purchaser" property="purchaser" />
+        <result column="remarks" property="remarks" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: zhanglei
+Build-Jdk: Amazon Corretto 1.8.0_412
+Implementation-Title: inv_system Maven Webapp
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.lut
+Main-Class: ${start-class}
+
